@@ -64,10 +64,11 @@ def azure_streaming_stt(filename: str, lang: str, encoding: str) -> str:
 
 
 # Run tests
-# for t in TESTCASES:
-#     print('\naudio file="{0}"    expected text="{1}"'.format(
-#         t['filename'], t['text']
-#     ))
-#     azure_streaming_stt(t['filename'], t['lang'], t['encoding'])
+for t in TESTCASES:
+    print('\naudio file="{0}"    expected text="{1}"'.format(
+        t['filename'], t['text']
+    ))
+    azure_streaming_stt(t['filename'], t['lang'], t['encoding'])
+    
 # Run Batch Transcript
-azure_streaming_stt(filename='audio/GRF19740809.wav',lang='en-US',encoding='LINEAR16')
+#azure_streaming_stt(filename='audio/GRF19740809.wav',lang='en-US',encoding='LINEAR16')
