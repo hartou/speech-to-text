@@ -6,8 +6,9 @@ Speech-To-Text using Azure Cognitive Service
 
 ## Step 1 : Create the "utils.py" file
 
-Create the "utils.py" file add the AZURE_SPEECH_KEY, AZURE_SERVICE_REGION
-[utils.py file ](img/utils.py.png)
+Create the "utils.py" file add the AZURE_SPEECH_KEY, AZURE_SERVICE_REGION values from retrieved from the azure portal
+
+![](img/utils.py.png)
 
 ## Step 2: Create your virtual environment 
  I
