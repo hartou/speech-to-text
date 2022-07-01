@@ -18,8 +18,8 @@ Speech-To-Text using Azure Cognitive Service
 ![](img/utils.py.png)
 
 ## Step 2: Create your virtual environment 
- I
- For my virtual environment, I use pipenv. Use the following link to set up environment : [https://pypi.org/project/pipenv/]
+ 
+ For my virtual environment, I use pipenv. Visit the following link to set up the pipenv environment : [https://pypi.org/project/pipenv/]
 
 # Step 3 : Transcribe mp3 to file 
 
