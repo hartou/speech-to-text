@@ -1,17 +1,17 @@
 # Speech-To-Text using Azure Cognitive Service
 
-    The Speech-To-Text feature of the Azure Cognitive is a service that allows you to transcribe spoken words from a microphone or an audio recording.
-    
-    The goal of this tutorial is to show you how to use Azure cognitive to transcribe a single file or a batch of files.
-    
-    Fun Fact, I am using this very feature of Azure cognitive services embedded into Microsoft Word to dictate part of this tutorial.
+The Speech-To-Text feature of the Azure Cognitive is a service that allows you to transcribe spoken words from a microphone or an audio recording.
 
-    The sample codes from this example is an adaptation of the samples from the following repos [https://github.com/Azure-Samples/cognitive-services-speech-sdk]
+The goal of this tutorial is to show you how to use Azure cognitive to transcribe a single file or a batch of files.
+
+Fun Fact, I am using this very feature of Azure cognitive services embedded into Microsoft Word to dictate part of this tutorial.
+
+The sample codes from this example is an adaptation of the samples from the following repos [https://github.com/Azure-Samples/cognitive-services-speech-sdk]
 
 # Prerequisites
 
-1- Azure Subscription ("Azure account")
-2- Deploy a Speech-to-text resource from Azure Portal
+1 - Azure Subscription ("Azure account")
+2 - Deploy a Speech-to-text resource from Azure Portal
 3 - Get the **resource key** and **region**. After your Speech resource is deployed, select Go to resource to view and manage keys.
     For more information about Cognitive Services resources, see [Get the keys for your resource](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows#get-the-keys-for-your-resource).
 
