@@ -39,16 +39,19 @@ I will be transcribing the English language from the audio recordings and the Az
 
 # Step 3 : Running Batch transcript  (.wav)
 
-Use the script below to transcribe the ".wav" files listed in the file named "testcase.py".
+Use the script below on your terminal to transcribe the ".wav" files listed in the file named "testcase.py".
 
 ```sh
 python callback_batch_transcript.py
 ```
 
+![](img/run_batch_transcript.png)
 # Step 4 : Transcribe mp3 to file
 
 To transcript MP3 files on Windows, you will need to install few more packages.
 Visit click here to learn **[How to use compressed input audio](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-use-codec-compressed-audio-input-streams?tabs=windows%2Cdebian%2Cjava-android%2Cterminal&pivots=programming-language-python)**
+
+Use the script below on your terminal to transcribe the file name "GRF19740809_64kb.mp3" located in the "audio" folder
 
 ```sh
     python transcribe-mp3-to-file.py 
